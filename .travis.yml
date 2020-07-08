@@ -1,0 +1,9 @@
+sudo: required
+
+dist: bionic
+
+services:
+  - docker
+
+script:
+  ./setup-docker-buildx.sh
